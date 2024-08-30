@@ -13,6 +13,7 @@ public class LoanDatabase {
         loans = new ArrayList<>();
     }
 
+    // Singleton Pattern for DB Instance
     // Public method to provide access to the single instance
     public static LoanDatabase getInstance() {
         if (instance == null) {
